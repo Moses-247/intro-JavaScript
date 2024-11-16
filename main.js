@@ -45,3 +45,16 @@
 //     username = document.getElementById("MyText").value;
 //     document.getElementById("myP").textContent = `Hello ${username}`
 // }
+
+
+//COnversion
+
+// let age = window.prompt("How Young are You?");
+// age= Number(age) 
+// age +=1;
+
+// console.log(age, typeof age);
+
+//Constants
+
+
