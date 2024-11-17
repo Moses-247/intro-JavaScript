@@ -62,13 +62,35 @@ let radius;
 let circum
 
 //radius = window.prompt("Enter radius of the circle");
-radius = Number(radius);
+// radius = Number(radius);
 
-circum = 2 * PI * radius;
+// circum = 2 * PI * radius;
 
-document.getElementById("Submit".onclick) => {
-    radius = document.getElementById('myText').value;
-    radius = Number(radius);
-    circum = 2 * PI * radius;
-    document.getElementById('myH3').textContent = circum + "cm";
+// document.getElementById("Submit".onclick) => {
+//     radius = document.getElementById('myText').value;
+//     radius = Number(radius);
+//     circum = 2 * PI * radius;
+//     document.getElementById('myH3').textContent = circum + "cm";
+// }
+
+
+// Counter Program
+
+const increasebtn = document.getElementById("increasebtn");
+const decreasebtn = document.getElementById("decreasebtn");
+const resetbtn = document.getElementById("resetbtn");
+const countlbl = document.getElementById("countlbl");
+let count = 0;
+
+increasebtn.onclick= function() {
+    count++;
+    countlbl.textContent = count;
+}
+decreasebtn.onclick = function(){
+    count--;
+    countlbl.textContent = count;
+}
+resetbtn.onclick = function(){
+    count = 0;
+    countlbl.textContent = count;
 }
