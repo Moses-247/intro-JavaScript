@@ -57,4 +57,18 @@
 
 //Constants
 
+const PI = 3.14;
+let radius;
+let circum
 
+//radius = window.prompt("Enter radius of the circle");
+radius = Number(radius);
+
+circum = 2 * PI * radius;
+
+document.getElementById("Submit".onclick) => {
+    radius = document.getElementById('myText').value;
+    radius = Number(radius);
+    circum = 2 * PI * radius;
+    document.getElementById('myH3').textContent = circum + "cm";
+}
