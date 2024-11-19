@@ -116,5 +116,30 @@ let circum
 //     numlbl.textContent = randomNum;
 // }
 
+// if statements
 
+// let age = 10;
 
+// if(age >= 18){
+//     console.log("Old enough to go out");
+// }else{
+//     console.log("stay home child")
+// }
+
+// label, button, textbox
+
+// myage = document.getElementById('myage');
+// btn = document.getElementById('btn');
+// lbl = document.getElementById('lbl');
+// let age;
+
+// btn.onclick = function(){
+//     age = myage.value;
+//     age = Number(age);    
+
+//     if(age >= 18){
+//         lbl.textContent = `Old Enough`;
+//     }else{
+//         lbl.textContent = `too young..`;
+//     }
+// }
