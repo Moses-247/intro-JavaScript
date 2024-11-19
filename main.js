@@ -76,21 +76,45 @@ let circum
 
 // Counter Program
 
-const increasebtn = document.getElementById("increasebtn");
-const decreasebtn = document.getElementById("decreasebtn");
-const resetbtn = document.getElementById("resetbtn");
-const countlbl = document.getElementById("countlbl");
-let count = 0;
+// const increasebtn = document.getElementById("increasebtn");
+// const decreasebtn = document.getElementById("decreasebtn");
+// const resetbtn = document.getElementById("resetbtn");
+// const countlbl = document.getElementById("countlbl");
+// let count = 0;
 
-increasebtn.onclick= function() {
-    count++;
-    countlbl.textContent = count;
-}
-decreasebtn.onclick = function(){
-    count--;
-    countlbl.textContent = count;
-}
-resetbtn.onclick = function(){
-    count = 0;
-    countlbl.textContent = count;
-}
+// increasebtn.onclick= function() {
+//     count++;
+//     countlbl.textContent = count;
+// }
+// decreasebtn.onclick = function(){
+//     count--;
+//     countlbl.textContent = count;
+// }
+// resetbtn.onclick = function(){
+//     count = 0;
+//     countlbl.textContent = count;
+// }
+
+//RANDOM NUMBER GENERATOR
+
+// const min = 50;
+// const max = 100;
+
+// let randomNum = Math.floor(Math.random() * (max - min)) + min ;
+
+
+// console.log(randomNum);
+
+// const rollbtn = document.getElementById('rollbtn');
+// const numlbl = documnet.getElementById('numlbl');
+// const min = 1;
+// const max = 6;
+// let randomNum;
+
+// rollbtn.onclick = function(){
+//     randomNum = Math.floor(Math.random() * max) + min;
+//     numlbl.textContent = randomNum;
+// }
+
+
+
